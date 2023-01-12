@@ -30,13 +30,22 @@
 
   <body>
     <header>
-      Questo è il titolo più importante della pagina E insieme a questo secondo
-      titolo, sono racchiusi nell'intestazione della pagina
+      <h1>Questo è il titolo più importante della pagina</h1>
+      <h2>
+        E insieme a questo secondo titolo, sono racchiusi nell'intestazione
+        della pagina
+      </h2>
     </header>
 
     <!-- Tag utilizzato solitamente per la barra laterale di un sito web , tuttavia per renderla per davvero una sidebar, abbiamo bisogno del css-->
     <aside>
-      Questa è una lista non ordinata di link link 1 link 2 link 3 link 4 link 5
+      Questa è una lista non ordinata di link
+      <ul>
+        <li>link 1</li>
+        <li>link 2</li>
+        <li>link 3</li>
+        <li>link 4</li>
+      </ul>
     </aside>
 
     <main>
@@ -44,25 +53,26 @@
 
       <section>
         All'interno del corpo sono presenti varie sezioni Questa è una
-        citazione: Hello world
+        citazione: <cite>Hello world</cite>
       </section>
 
       <section>
-        Questo testo va come: apice
+        Questo testo va come: <sup>apice</sup>
         <br />
         <!-- Il tag br (break) viene utilizzato per evitare che due tag inline, stiano accanto -->
-        Questo, invece, va come: pedice
+        Questo, invece, va come: <sub>pedice</sub>
       </section>
 
       <section>
-        Questo testo è enfatizato
+        <em>Questo testo è enfatizato</em>
         <br />
-        Questo, invece, è importante
+        <strong>Questo, invece, è importante</strong>
       </section>
     </main>
 
     <footer>
-      Questa è la parte finale di una pagina Questo è un paragrafo segna posto
+      Questa è la parte finale di una pagina
+      <p>Questo è un paragrafo segna posto</p>
     </footer>
   </body>
 </html>
